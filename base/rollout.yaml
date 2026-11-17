@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   name: demo-app
-  namespace: argocd-rollouts-demo
+ # namespace: argocd-rollouts-demo
 spec:
   replicas: 4
   selector:

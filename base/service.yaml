@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: demo-app
-  namespace: argocd-rollouts-demo
+#  namespace: argocd-rollouts-demo
 spec:
   selector:
     app: demo-app
